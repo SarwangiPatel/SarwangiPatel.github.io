@@ -1,41 +1,51 @@
-# Site Settings
+# Site settings
 title: "My Quest"
 name: "Sarwangi Patel"
-description: "..."
-url: "https://SarwangiPatel.github.io"
+description: "Exploring physics and ideas."
+url: "https://sarwangipatel.github.io" # Your live site URL
 
-# Author Info (appears in sidebar)
+# Author info (appears in sidebar if enabled)
 author:
   name: "Sarwangi Patel"
-  bio: ""
-  location: ""
-  links: []
+  bio: "Researcher, writer, and explorer of ideas."
+  location: "India"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/SarwangiPatel"
 
-# Site Configuration
-repository: "SarwangiPatel/SarwangiPatel.github.io"
-masthead_title: "Sarwangi Patel"
+# Theme (GitHub Pages-compatible)
+theme: minimal-mistakes-jekyll
+
+# Optional visual style
+minimal_mistakes_skin: "default" # Try "air", "mint", "sunrise", "dark", etc.
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+markdown: kramdown
+highlighter: rouge
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+# Navigation bar
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
 
-# Navigation (basic structure — feel free to expand later)
+# Include custom pages folder
 include:
   - _pages
 
-# Pagination
-paginate: 5
-paginate_path: /page:num/
-
-# Collections (for future portfolio use)
+# Collections (for portfolio use)
 collections:
   portfolio:
     output: true
     permalink: /:collection/:name/
+
+# Pagination (optional for blog posts)
+paginate: 5
+paginate_path: /page:num/
+
+# Output options
+permalink: /:title/
