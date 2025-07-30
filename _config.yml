@@ -1,33 +1,25 @@
 # Site Settings
 title: "Sarwangi Patel"
-name: "Sarwangi Patel"
-description: "Welcome to my professional portfolio and blog"
+name: "Sarwangi Patel" 
+description: "Theoretical Physics Research Journey"
 url: "https://sarwangipatel.github.io"
-baseurl: ""
 
-# Author Info (appears in sidebar)
+# Author Info
 author:
   name: "Sarwangi Patel"
-  bio: "Building my professional portfolio and sharing my journey"
-  location: "Your City, Country"
+  bio: "Theoretical Physics Researcher"
+  location: "Your Location"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:your.email@example.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SarwangiPatel"
 
-# Site Configuration
-repository: "SarwangiPatel/SarwangiPatel.github.io"
-masthead_title: "Sarwangi Patel"
-
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # Try: "air", "aqua", "contrast", "dark", "mint", "plum"
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-paginate
@@ -36,55 +28,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Navigation
-header:
-  links:
-    - title: "About"
-      url: /about/
-    - title: "Research"
-      url: /research/
-    - title: "Notes"
-      url: /notes/
-    - title: "Blog"
-      url: /posts/
-      
 # Pagination
 paginate: 5
 paginate_path: /page:num/
-
-# Collections for Portfolio
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name/
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
-      
