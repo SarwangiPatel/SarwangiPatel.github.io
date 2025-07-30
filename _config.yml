@@ -1,33 +1,11 @@
-# Site Settings
 title: "Sarwangi Patel"
-name: "Sarwangi Patel" 
-description: "Theoretical Physics Research Journey"
-url: "https://sarwangipatel.github.io"
+description: "Theoretical Physics Research"
 
-# Author Info
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 author:
   name: "Sarwangi Patel"
-  bio: "Theoretical Physics Researcher"
-  location: "Your Location"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.email@example.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/SarwangiPatel"
-
-# Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+  bio: "Physics Researcher"
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-
-# Pagination
-paginate: 5
-paginate_path: /page:num/
