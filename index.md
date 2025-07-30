@@ -1,17 +1,17 @@
 ---
 layout: home
-title: "Welcome"
 author_profile: true
 ---
 
-I'm currently building this space to showcase my work and share my thoughts.
+# Welcome to My Research Journey
 
-More content coming soon!
+Hi! I'm Sarwangi Patel, exploring theoretical physics and building my research portfolio.
 
-## What You'll Find Here (Eventually)
-- Professional projects and portfolio  
-- Blog posts about topics I’m passionate about  
-- My background and experience  
+## Current Focus
 
-Stay tuned for updates!
+- Studying foundational papers in theoretical physics
+- Building understanding of key mathematical frameworks  
+- Planning my first survey paper for arXiv
+- Documenting my research journey
 
+More content coming soon as I develop my research!
